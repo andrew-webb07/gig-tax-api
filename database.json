@@ -1,6 +1,174 @@
 {
-    "users" : [],
-    "receipts" : [],
-    "gigs" : [],
-    "tours" : []
+  "users": [
+    {
+      "email": "andrew@email.com",
+      "address": "2134 loudenslager drive, Thompsons station, TN, 37179",
+      "id": 1
+    },
+    {
+      "email": "nicole@email.com",
+      "address": "5555 Doris, Southfield, MI, 48034",
+      "id": 2
+    }
+  ],
+  "receipts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "businessName": "Guitar Center",
+      "businessAddress": "29555 Northwestern Hwy, Southfield, MI, 48034",
+      "description": "Tama snare drum",
+      "date": "2021-01-20",
+      "price": 279.99,
+      "receiptNumber": "333111111111111"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "businessName": "Forks Drum Closet",
+      "businessAddress": "308 Chestnut St,Nashville,TN,37210",
+      "description": "Drum sticks",
+      "date": "2021-06-05",
+      "price": 60,
+      "receiptNumber": "111212321"
+    },
+    {
+      "userId": 2,
+      "businessName": "Mars Music",
+      "businessAddress": "5555 Telegraph, Southfield, MI, 48035",
+      "description": "Yamaha Keyboard",
+      "date": "2021-05-12",
+      "price": 599.99,
+      "receiptNumber": "123456789",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "businessName": "Mars Music",
+      "businessAddress": "5555 Telegraph, Southfield, MI, 48034",
+      "description": "Iron Cobra Double Bass Pedal",
+      "date": "2021-07-07",
+      "price": 349.99,
+      "receiptNumber": "12121212121212"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "businessName": "Walmart",
+      "businessAddress": "4959 Main St, Spring Hill, TN, 37174",
+      "description": "Tour Supplies",
+      "date": "2019-04-01",
+      "price": 35,
+      "receiptNumber": "3131321321"
+    }
+  ],
+  "gigs": [
+    {
+      "id": 1,
+      "userId": 1,
+      "artist": "Relentless Flood",
+      "locationName": "EXIT/IN",
+      "locationAddress": "2208 Elliston Pl, Nashville, TN, 37210",
+      "gigDescription": "rock show",
+      "date": "2021-06-03",
+      "gigPay": 100,
+      "mileage": 53
+    },
+    {
+      "userId": 2,
+      "artist": "The Lost Saints",
+      "locationName": "Dark Horse Studio",
+      "locationAddress": "2465 Old Charlotte Pike, Franklin, TN, 37064",
+      "gigDescription": "Recorded 3 songs",
+      "date": "2021-03-04",
+      "gigPay": 350,
+      "mileage": 45,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "artist": "Flo",
+      "locationName": "Majestic Theater",
+      "locationAddress": "230 Franklin Rd, Franklin, TN, 37064",
+      "gigDescription": "Showcase",
+      "date": "2021-10-04",
+      "gigPay": 220,
+      "mileage": 22
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "artist": "The Lost Saints",
+      "locationName": "Wildhorse Saloon",
+      "locationAddress": "120 2nd Ave N, Nashville, TN, 37201",
+      "gigDescription": "country show",
+      "date": "2021-09-14",
+      "gigPay": 200,
+      "mileage": 55
+    }
+  ],
+  "tours": [
+    {
+      "id": 1,
+      "userId": 1,
+      "artist": "Reyna Roberts",
+      "tourDepartureAddress": "1101 Cherry Ave, Nashville, TN, 37203",
+      "tourDescription": "Jamey Johnson Tour",
+      "numberOfGigs": 7,
+      "perDiem": 25,
+      "travelDays": 4,
+      "travelDayPay": 50,
+      "dateStart": "2021-07-08",
+      "dateEnd": "2021-07-19",
+      "tourGigPay": 150,
+      "mileage": 52
+    },
+    {
+      "userId": 2,
+      "artist": "Plumb",
+      "tourDepartureAddress": "555 Broadway, Nashville, TN, 37021",
+      "tourDescription": "Plumb Tour",
+      "numberOfGigs": 5,
+      "perDiem": 15,
+      "travelDays": 2,
+      "travelDayPay": 25,
+      "dateStart": "2021-03-20",
+      "dateEnd": "2021-03-27",
+      "tourGigPay": 75,
+      "mileage": 65,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "artist": "Relentless Flood",
+      "tourDepartureAddress": "1251 Campbell Road, Goodlettsville, TN, 37072",
+      "tourDescription": "Disciple tour",
+      "numberOfGigs": 20,
+      "perDiem": 10,
+      "travelDays": 10,
+      "travelDayPay": 40,
+      "dateStart": "2021-03-01",
+      "dateEnd": "2021-03-31",
+      "tourGigPay": 100,
+      "mileage": 73
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "artist": "Halcyon Wander",
+      "tourDepartureAddress": "4959 Main St, Spring Hill, TN, 37174",
+      "tourDescription": "Decyfer Down Crash Tour",
+      "numberOfGigs": 3,
+      "perDiem": 5,
+      "travelDays": 4,
+      "travelDayPay": 10,
+      "dateStart": "2019-03-26",
+      "dateEnd": "2019-04-02",
+      "tourGigPay": 50,
+      "mileage": 2
+    }
+  ]
 }
